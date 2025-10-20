@@ -1,0 +1,19 @@
+# SlashHideCmd configuration
+enabled: true
+
+# If true, operators (OP) will see all commands regardless of permission nodes
+ops-see-all: true
+
+# If true, commands that do not declare a permission node will be hidden from players
+hide-when-no-permission-node: false
+
+# Commands always shown (lowercase, without leading slash)
+whitelist-commands:
+  - help
+  - spawn
+  - msg
+
+# Commands always hidden (lowercase, without leading slash)
+blacklist-commands:
+  - worldedit
+  - we

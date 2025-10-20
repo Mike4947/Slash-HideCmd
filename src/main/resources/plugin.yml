@@ -1,0 +1,19 @@
+name: Slash-HideCmd
+version: '1.0'
+main: slashHideCmd.SlashHideCmd
+api-version: '1.21'
+prefix: S-HC
+load: STARTUP
+authors: [ Mike4947 ]
+description: Hide Plugin's Command that Your Players Don't Have Access to.
+
+commands:
+  shd:
+    description: SlashHideCmd administrative command (help / reload)
+    usage: /<command> help|reload
+    aliases: [sh, shc]
+
+permissions:
+  slashhide.reload:
+    description: Allows reloading the SlashHideCmd config
+    default: op
